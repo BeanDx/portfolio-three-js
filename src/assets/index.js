@@ -16,6 +16,7 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import linux from './tech/linux.png';
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
@@ -25,8 +26,14 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import question from './company/question.png'
 
 import carrent from "./carrent.png";
+import picShareHub from './picShareHub.png';
+import webChat from './webchat.png';
+import numberQuest from './numberQuest.png';
+import gta6 from './gta6.png';
+import ipLogger from './ipLogger.png';
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -51,12 +58,19 @@ export {
   redux,
   tailwind,
   typescript,
+  linux,
   threejs,
   meta,
   shopify,
   starbucks,
   tesla,
+  question,
   carrent,
+  picShareHub,
+  webChat,
+  numberQuest,
+  gta6,
+  ipLogger,
   jobit,
   tripguide,
 };
