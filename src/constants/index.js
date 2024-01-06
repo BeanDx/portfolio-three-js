@@ -151,17 +151,17 @@ const experiences = [
             "Ensuring cross-browser compatibility and optimizing application performance for a seamless user experience.",
             "Implementing and maintaining unit tests to ensure code quality and identify potential issues early in the development process.",
             "Participating actively in Agile development processes, including sprint planning, daily stand-ups, and retrospectives.",
-            "Conducting code reviews and providing constructive feedback to team members to improve code quality and maintainability.",
-            "Staying updated on the latest front-end technologies, best practices, and industry trends to incorporate them into the development workflow.",
-            "Collaborating with back-end developers to integrate front-end components with server-side logic and databases.",
-            "Troubleshooting and debugging issues to identify and resolve software defects and improve overall system reliability.",
-            "Assisting in the development of documentation for code, processes, and best practices to facilitate knowledge sharing within the team.",
-            "Contributing to the continuous improvement of development workflows and tools to enhance productivity and efficiency.",
-            "Participating in the planning and execution of performance optimization strategies for enhanced user experience.",
-            "Implementing security best practices to safeguard applications against common vulnerabilities.",
-            "Working closely with product managers to understand project requirements and deliver solutions that align with business objectives.",
-            "Providing technical support to other team members and collaborating on problem-solving initiatives.",
-            "Maintaining a strong focus on code quality, scalability, and maintainability to ensure long-term success of the applications."
+            // "Conducting code reviews and providing constructive feedback to team members to improve code quality and maintainability.",
+            // "Staying updated on the latest front-end technologies, best practices, and industry trends to incorporate them into the development workflow.",
+            // "Collaborating with back-end developers to integrate front-end components with server-side logic and databases.",
+            // "Troubleshooting and debugging issues to identify and resolve software defects and improve overall system reliability.",
+            // "Assisting in the development of documentation for code, processes, and best practices to facilitate knowledge sharing within the team.",
+            // "Contributing to the continuous improvement of development workflows and tools to enhance productivity and efficiency.",
+            // "Participating in the planning and execution of performance optimization strategies for enhanced user experience.",
+            // "Implementing security best practices to safeguard applications against common vulnerabilities.",
+            // "Working closely with product managers to understand project requirements and deliver solutions that align with business objectives.",
+            // "Providing technical support to other team members and collaborating on problem-solving initiatives.",
+            // "Maintaining a strong focus on code quality, scalability, and maintainability to ensure long-term success of the applications."
         ]
     }
 ];
@@ -175,22 +175,22 @@ const testimonials = [
         company: "Freelance",
         image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
-    {
-        testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Max does.",
-        name: "Chris Brown",
-        designation: "Customer",
-        company: "Freelance",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-        testimonial:
-            "After Max optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "Customer",
-        company: "Freelance",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    // {
+    //     testimonial:
+    //         "I've never met a web developer who truly cares about their clients' success like Max does.",
+    //     name: "Chris Brown",
+    //     designation: "Customer",
+    //     company: "Freelance",
+    //     image: "https://randomuser.me/api/portraits/men/5.jpg",
+    // },
+    // {
+    //     testimonial:
+    //         "After Max optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    //     name: "Lisa Wang",
+    //     designation: "Customer",
+    //     company: "Freelance",
+    //     image: "https://randomuser.me/api/portraits/women/6.jpg",
+    // },
 ];
 
 const projects = [
