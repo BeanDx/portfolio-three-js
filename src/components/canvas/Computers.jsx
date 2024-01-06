@@ -4,8 +4,20 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
-const Computers = ({ isMobile }) => {
+const Computers = React.memo(({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
+
+  useEffect(() => {
+    return () => {
+      // Освобождение ресурсов
+      computer.scene.traverse((obj) => {
+        if (obj.isMesh) {
+          obj.geometry.dispose();
+          obj.material.dispose();
+        }
+      });
+    };
+  }, []);
 
   return (
     <mesh>
@@ -27,7 +39,7 @@ const Computers = ({ isMobile }) => {
       />
     </mesh>
   );
-};
+});
 
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
